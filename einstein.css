@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+	background-color: aqua;
+	font-family: monospace;
+	font-size: 40px;
+}
+#back{
+	height: 75px;
+	width: 200px;
+	border: dotted;
+}
+#back:hover{
+    /*Give transform property to scale to 0.9*/
+    transform:scale(0.9);
+}
+#es{
+	height: 400px;
+	width: 400px;
+}

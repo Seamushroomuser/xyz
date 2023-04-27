@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    background-color: greenyellow;
+  }
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#abt {
+    color: white;
+    bottom: 0;
+    background: linear-gradient(#02e2f2 0%, #02e2f2 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#book{
+    text-align: center;
+    height: 350px;
+}
+#es{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: solid;
+}
+#es:hover {
+    /*Give transform property to scale to 0.9*/
+    transform:scale(0.9);
+}
+#bg{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border: solid;
+}
+#bg:hover {
+    /*Give transform property to scale to 0.9*/
+    transform:scale(0.9);
+}
+#hp{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+#mail{
+    height: 45px;
+    width: 45px;
+}
+#insta{
+    height: 45px;
+    width: 45px;
+}
+.xyz{
+    font-size: 40px;
+}
+p{
+	font-size: 50px;
+}
+h1 {
+  text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+h2 {
+ text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: aqua;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+.links {
+    height: 60px;
+    width: 70px;
+    background-color: orange;
+    margin: 8px auto;
+}
+
+.links:hover {
+    background-color: #0cadc2;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
